@@ -1,0 +1,446 @@
+{
+    "blogs": [
+        {
+            "_id": "684931c37c04df1fb33de099",
+            "user_id": "684931387c04df1fb33de097",
+            "title": "Idea to Internet: Website Essentials",
+            "username": "abdullahfirdowsi@gmail.com",
+            "content": "[{\"id\":\"block_1749627274282_gqxq7eirz\",\"type\":\"content\",\"data\":\"In today\u2019s digital-first world, websites serve as digital storefronts for individuals, brands, services, and everything in between. But what exactly constitutes a website? How do they work? And why do some take long to load while others load instantly?\\n\\nThis blog provides an easy-to-understand overview of websites, including their categories, construction, technologies, and hosting options.\\n\\n\ud83c\udf10 What is a Website?\\nA website is a collection of web pages that are accessible through the internet using a browser. It can be:\\n\\nInformational (e.g., Wikipedia)\\nInteractive (e.g., Facebook)\\nE-commerce (e.g., Amazon)\\nWebsites are built using frontend and backend technologies and hosted on servers.\\n\\n\\n\ud83e\uddf1 Static vs Dynamic Websites\\n1. Static Websites:\\n\\nFixed content, same for every visitor.\\nBuilt with HTML, CSS only.\\nExample: Portfolio, company profile, digital resumes.\\n\\n2. Dynamic Websites:\\n\\nContent changes based on user actions or data.\\nUses server-side scripting (PHP, Python, Node.js) + database.\\nExample: Social media, news sites, online stores.\\n\\n\ud83d\udd0d Static vs Dynamic: Quick Comparison\\n\\n\\n\ud83d\ude80 What is a Live Website?\\nA live website is hosted on a server and accessible to anyone with an internet connection. For example:\\n\\nhttps://myportfolio.com \u2192 a live static site\\nhttp://192.168.0.3:8080 \u2192 a site hosted via IP and port (common in colleges for results, feedback forms, internal tools)\\n\ud83e\uddf5 What Does a Website URL Mean?\\nA website URL (Uniform Resource Locator) is the address used to access a specific resource on the internet. It\u2019s similar to your home address, but for web pages.\\n\\nExample: https://www.amazon.com\\n\\nLet\u2019s break it down:\\n\\nhttps:// \u2014 This is the protocol, which tells your browser how to communicate with the website\u2019s server. Most secure sites use HTTPS (HyperText Transfer Protocol Secure), which encrypts the data exchanged.\\nwww \u2014 Stands for World Wide Web. It\u2019s a subdomain and is optional now. Many websites work without it, like amazon.com.\\namazon \u2014 This is the domain name, chosen by the website owner. It must be unique and is typically registered through a domain registrar (e.g., GoDaddy, Namecheap).\\n.com \u2014 This is the Top-Level Domain (TLD). Common TLDs include:\\n.com \u2192 commercial\\n\\n.org \u2192 organizations (non-profits)\\n\\n.edu \u2192 educational institutions\\n\\n.gov \u2192 government\\n\\n.in, .uk, .jp \u2192 country-specific TLDs\\n\\nTogether, www.amazon.com is a fully qualified domain name (FQDN) that directs your browser to the Amazon servers.\\n\\n\ud83c\udf0d More About Domains:\\nA domain is mapped to an IP address using DNS (Domain Name System), so humans can use names like amazon.com instead of remembering numbers like 142.250.190.78.\\nDomain names can include subdomains like blog.example.com, which can point to different parts of the same website.\\nRegistering a domain gives you ownership for a certain period (usually yearly), and it must be renewed to retain access.\\nPremium domains (e.g., cars.com) can be sold for millions due to their simplicity or branding power.\\nDomains are your identity on the internet \u2014 they\u2019re how people find and trust your site.\\n\\n\u2692\ufe0f Website Builders and Low-Code Tools\\nNot everyone needs to code from scratch. Some platforms help you create websites with drag-and-drop or simple configurations:\\n\\nWix \u2014 Drag-and-drop builder for personal/business sites\\nWordPress \u2014 Blogging & content management\\nBootstrap \u2014 A front-end framework with prebuilt HTML/CSS/JS components\\nWebflow, Squarespace, Carrd \u2014 Popular low-code/no-code builders\\n\ud83e\udde9 Frontend Tech Stack\\nThe frontend of a website is what users see and interact with. It\u2019s the part rendered in your browser \u2014 text, images, buttons, menus, animations, etc.\\n\\n\ud83d\udc41\ufe0f Frontend (Client-side):\\nBuilt with HTML, CSS, and JavaScript.\\n\\nHTML (HyperText Markup Language) \u2014 Provides the structure (headings, paragraphs, images)\\nCSS (Cascading Style Sheets) \u2014 Adds styles (colors, layout, fonts)\\nJavaScript \u2014 Adds interactivity (buttons, animations, popups)\\nFrameworks & Libraries:\\n\\nReact.js \u2014 Component-based library (by Meta)\\nAngular \u2014 Full-fledged framework (by Google)\\nVue.js \u2014 Lightweight and beginner-friendly\\n\ud83e\udde0 SPA (Single Page Application):\\nLoads once and dynamically updates content.\\nNo page reloads between views \u2192 smoother user experience.\\nCommon in modern apps (Gmail, Facebook, Twitter).\\n\ud83d\udcf1 Example:\\nWhen you open a portfolio site built in Angular, everything is loaded once. Clicking \u201cProjects\u201d doesn\u2019t reload the whole page \u2014 it just updates the view.\\n\\nModern frontend stacks also include:\\n\\nTailwind CSS, Bootstrap \u2014 Styling frameworks\\nNext.js, Nuxt.js \u2014 Meta-frameworks for advanced frontend\\n\ud83e\udde0 Why Backend Matters\\nThe backend (server-side) is what powers the website behind the scenes. It\u2019s responsible for logic, databases, security, and data delivery.\\n\\n\ud83d\udd27 Backend (Server-side):\\nResponds to frontend requests: \u201cGet this user\u2019s data\u201d, \u201cStore this form\u201d, \u201cCheck login info\u201d.\\nHandles business logic and rules\\nManages authentication and security\\nTalks to the database and returns results\\nCommon Backend Languages:\\nNode.js (JavaScript runtime)\\nPython (Django, Flask)\\nPHP (WordPress, Laravel)\\nJava (Spring Boot)\\nRuby on Rails\\nDatabases:\\nSQL: MySQL, PostgreSQL\\nNoSQL: MongoDB, Firebase\\nExample:\\nWhen you fill a login form and press submit:\\n\\nThe frontend captures your input\\nSends a request to the backend API\\nBackend checks the data in the database\\nResponds: Login success or failure\\nTogether, frontend and backend work like:\\n\\nFrontend \u2192 Like the customer interface in a restaurant\\nBackend \u2192 Like the kitchen where the food (data) is prepared\\nModern web development often involves developers who know both ends, called full-stack developers.\\n\\n\\n\u2601\ufe0f Hosting & Cloud\\nWebsites need to be stored and served from somewhere. Options include:\\n\\nShared Hosting \u2014 Basic & cheap\\nVPS/Cloud Hosting \u2014 Scalable (AWS, Google Cloud, Azure)\\nCDN (Content Delivery Network) \u2014 Boosts speed worldwide\\n\ud83e\uddea Testing and Deployment\\nBefore going live, websites are:\\n\\nTested for bugs, responsiveness, and performance\\nDeployed using tools like GitHub, Vercel, Netlify, or Docker for complex apps\\n\\n\ud83d\udc22 Why Some Websites Load Slowly?\\nWebsite loading speed is crucial \u2014 not just for user experience but also for SEO and conversions. Slow websites can frustrate users and lead to drop-offs. Below are the key factors that can drag down a site\u2019s speed:\\n\\n\ud83d\udd39 1. Large Images or Videos Not Optimized\\nUncompressed media files (e.g., high-resolution images or auto-playing videos) take time to download.\\nExample: A homepage with a 10MB background video will load slower than a 200KB compressed image.\\n\\n\u2705 Fix: Use WebP images, lazy loading, and video compression tools.\\n\\n\ud83d\udd39 2. Poor Server Response Time\\nThe server hosting your site might be slow due to overloaded resources or poor configuration.\\nShared hosting plans often face this issue under heavy traffic.\\n\u2705 Fix: Choose better hosting (VPS or cloud-based), optimize backend processes.\\n\\n\ud83d\udd39 3. No Caching or CDN (Content Delivery Network)\\nWithout caching, the server regenerates pages for every request \u2014 even if nothing changed.\\nCDNs serve content from locations closer to users, reducing delay.\\n\u2705 Fix: Enable browser caching, use services like Cloudflare or AWS CloudFront.\\n\\n\ud83d\udd39 4. Heavy Frontend Scripts\\nComplex JavaScript or CSS can delay rendering of the page.\\nOverusing animations, libraries (like jQuery or plugins), or ads can also cause slowdown.\\n\u2705 Fix: Minify JS/CSS files, defer script loading, remove unnecessary plugins.\\n\\n\ud83d\udd39 5. Database Bottlenecks\\nOn dynamic sites, each visitor may trigger database queries.\\nPoor indexing or unoptimized SQL queries slow down content generation.\\n\u2705 Fix: Optimize database queries, use caching (e.g., Redis), paginate results.\\n\\n\ud83d\udd39 6. Too Many HTTP Requests\\nEvery file (image, font, script, CSS) requires a separate request.\\nIf your site loads 150+ assets, the loading time spikes.\\n\u2705 Fix: Combine files where possible, use sprite sheets, reduce dependencies.\\n\\n\ud83d\udd39 7. Third-Party Tools\\nIntegrating external tools like analytics, chatbots, or social widgets can increase load time if they\u2019re slow.\\n\u2705 Fix: Load third-party scripts asynchronously, monitor their impact.\\n\\n\ud83d\udcca Want to Check Your Website Speed?\\nUse these tools:\\n\\nGoogle PageSpeed Insights\\nGTMetrix\\nPingdom Tools\\nThese give insights and actionable suggestions for improvement.\\n\\nWhether you\u2019re a student, developer, or just a curious explorer \u2014 understanding how websites are made, how they work, and how to make them faster is a superpower in today\u2019s digital age.\\n\\nThe web isn\u2019t magic \u2014 it\u2019s logic, code, design, and cloud.\\n\\nFollow me for more beginner-to-pro tech explainers!\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "website"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/4b9cd1b6cd4e4783a7e819b9384ada76.webp",
+            "published": true,
+            "created_at": "2025-06-11T07:35:31.477000",
+            "updated_at": "2025-06-11T07:35:31.477000",
+            "comment_count": 1,
+            "likes_count": 2
+        },
+        {
+            "_id": "684932837c04df1fb33de09f",
+            "user_id": "684931357c04df1fb33de096",
+            "title": " Introduction to MySQL: The Powerhouse of Relational Databases",
+            "username": "premkumar.sridhar021@gmail.com",
+            "content": "[{\"id\":\"block_1749627248786_vq048jvh3\",\"type\":\"content\",\"data\":\"In the world of modern applications, data is everything. From user information to e-commerce transactions, storing and managing data effectively is crucial. That\u2019s where MySQL comes in \u2014 a robust, open-source relational database management system (RDBMS) that powers everything from small projects to large-scale enterprise systems.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1749627257006_9eyb4ide5\",\"type\":\"subtitle\",\"data\":\"\ud83e\uddf1 What Is MySQL?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1749627270488_i2anl07qg\",\"type\":\"content\",\"data\":\"MySQL is an open-source RDBMS developed and maintained by Oracle Corporation. It uses Structured Query Language (SQL) to interact with and manage databases. Known for its speed, reliability, and ease of use, MySQL is a preferred choice for many web developers and organization.\\n\\nIt is often used in combination with:\\n\\nPHP for backend logic\\n\\nApache or Nginx as a web server\\n\\nLinux as the server OS\\n\\nThis combination is famously known as the LAMP stack (Linux, Apache, MySQL, PHP).\\n\\n\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1749627280493_b0pw07d3d\",\"type\":\"subtitle\",\"data\":\"\ud83d\udca1 Key Features of MySQL\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1749627284618_qoxvq4c0g\",\"type\":\"content\",\"data\":\"\u2705 Open Source and free to use\\n\\n\ud83d\udcca Relational database with support for complex queries and joins\\n\\n\ud83d\udd12 Secure with support for user access control and encrypted connections\\n\\n\ud83c\udfce\ufe0f Fast and Reliable even with large datasets\\n\\n\ud83d\udee0\ufe0f Cross-Platform \u2014 works on Windows, macOS, and Linux\\n\\n\ud83e\udd1d High Compatibility with popular web frameworks and languages like Node.js, Python, PHP, Java, and more\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1749627294804_h1ouk1n19\",\"type\":\"subtitle\",\"data\":\"\ud83d\udd27 Basic MySQL Commands\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1749627302335_nm4xqw2k9\",\"type\":\"content\",\"data\":\"Here are some commonly used MySQL operations:\\n\\n\ud83d\udcc1 Creating a Database\\nsql\\nCopy code\\nCREATE DATABASE my_database;\\n\ud83d\udcc4 Creating a Table\\nsql\\nCopy code\\nCREATE TABLE users (\\n    id INT AUTO_INCREMENT PRIMARY KEY,\\n    name VARCHAR(100),\\n    email VARCHAR(100),\\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\\n);\\n\u2795 Inserting Data\\nsql\\nCopy code\\nINSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');\\n\ud83d\udd0d Reading Data\\nsql\\nCopy code\\nSELECT * FROM users;\\n\ud83d\udcdd Updating Data\\nsql\\nCopy code\\nUPDATE users SET name = 'Bob' WHERE id = 1;\\n\u274c Deleting Data\\nsql\\nCopy code\\nDELETE FROM users WHERE id = 1;\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1749627312894_skdl0x23y\",\"type\":\"subtitle\",\"data\":\"\ud83e\udde0 Why Choose MySQL?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1749627324270_y173tvjel\",\"type\":\"content\",\"data\":\"Scalability: Works for both small apps and large enterprises\\n\\nCommunity Support: Massive global developer community\\n\\nTooling: GUI tools like phpMyAdmin, MySQL Workbench, and CLI support\\n\\nCloud Friendly: Compatible with cloud platforms like AWS (RDS), Google Cloud SQL, Azure Database for MySQL\\n\\n\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "db",
+                "mysql",
+                "sql"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/beb9e76e1eac485eb096d656f34adb7e.png",
+            "published": true,
+            "created_at": "2025-06-11T07:38:43.862000",
+            "updated_at": "2025-06-11T08:43:19.032000",
+            "comment_count": 1,
+            "likes_count": 3
+        },
+        {
+            "_id": "684fa5b29cccd4eb3aa8a1ab",
+            "user_id": "684931387c04df1fb33de097",
+            "title": "Understanding Networks and Protocols: From HTTP to IP",
+            "username": "abdullahfirdowsi@gmail.com",
+            "content": "[{\"id\":\"block_1750049765035_71rp6ivad\",\"type\":\"content\",\"data\":\"Have you ever wondered how the internet actually works? How your phone connects to WiFi, or why some websites show \u201cNot Secure\u201d in Chrome? In this blog, we\u2019ll break down everything you need to know about networks, IP addresses, protocols, and more \u2014 in a way that\u2019s super easy to understand.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750049803674_3b2guucsa\",\"type\":\"subtitle\",\"data\":\"\ud83c\udf10 What is a Network?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750049811861_vkizg5qq5\",\"type\":\"content\",\"data\":\"A network is just a group of computers or devices connected together so they can share data. Think of it like a classroom \u2014 students (devices) talk to each other and to the teacher (server) to exchange information.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750049828154_g29e5xqpt\",\"type\":\"subtitle\",\"data\":\"Types of Networks:\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750049872805_ltf930491\",\"type\":\"content\",\"data\":\"1. LAN (Local Area Network) \u2014 Limited to small areas like homes or offices. Ideal for internal communication.\\nExample: Your home WiFi connects your phone, laptop, and smart TV\\n\\n2. WAN (Wide Area Network) \u2014 Spans large distances; the internet is the largest example.\\nExample: The connection between your home and Google\u2019s servers.\\n\\n3. MAN (Metropolitan Area Network) \u2014 Covers city-scale infrastructure, such as municipal broadband.\\nExample: A city-wide public WiFi.\\n\\n4. PAN (Personal Area Network) \u2014 Short-range networks like Bluetooth and USB tethering.\\nExample: Your phone connected to your smartwatch.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750049883449_uxjnqp9wb\",\"type\":\"subtitle\",\"data\":\"\u2699\ufe0f What is a Protocol?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750049893364_ckqmehe2e\",\"type\":\"content\",\"data\":\"A protocol is a set of rules that devices follow when communicating.\\n\\nThink of it like language \u2014 if you\u2019re speaking English, and someone else is too, you understand each other. In the same way, devices on the internet must follow the same protocols to understand each other.\\n\\nCommon Protocols:\\n\\nIP (Internet Protocol): Assigns unique identifiers (IP addresses) to devices.\\nTCP/UDP: Governs data transfer reliability and speed.\\nHTTP/HTTPS: Enables web communication with or without encryption.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750049948357_4l7173ymx\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/ee643dffe3ee4425bbc2236cb76e862d.webp\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750049981366_ud1jv970g\",\"type\":\"subtitle\",\"data\":\"\ud83d\udd10 HTTP vs HTTPS: What\u2019s the Difference?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750049983849_16y067sn1\",\"type\":\"content\",\"data\":\"HTTP (Hypertext Transfer Protocol): Sends data without encryption.\\nHTTPS (HTTP Secure): Adds a security layer (SSL) to encrypt data.\\n\\nWhy is HTTPS safer?\\nBecause it keeps your data private. Think of it like mailing a letter (HTTP) vs. putting it in a locked box (HTTPS).\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750050053060_urby0szxn\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/51679ecde2af403b9a39527a886f02ff.jpg\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750050112604_g33h7gv4s\",\"type\":\"subtitle\",\"data\":\"\u2757Why Some Sites Show \u201cNot Secure\u201d in Chrome\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750050120637_83cfzcdff\",\"type\":\"content\",\"data\":\"If a website uses HTTP instead of HTTPS, Chrome warns you because your data isn\u2019t protected. This is risky, especially if you\u2019re typing passwords or credit card numbers.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750050188739_103u567ct\",\"type\":\"subtitle\",\"data\":\"\ud83e\udde0 Final Thoughts\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750050176874_x00m315y6\",\"type\":\"content\",\"data\":\"You don\u2019t need to be a networking expert to understand the basics. Networks are just how devices talk, and IPs are like their addresses. As you use the internet daily, knowing this helps you stay safer, smarter, and more curious!\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "network",
+                "protocols"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/13bde0fc2c304466ac8d22d8845dc16a.png",
+            "published": true,
+            "created_at": "2025-06-16T05:03:46.437000",
+            "updated_at": "2025-06-16T05:03:46.437000",
+            "comment_count": 0,
+            "likes_count": 0
+        },
+        {
+            "_id": "684fc5fe4e00a507626ad3ac",
+            "user_id": "684945d5bfa90e5e9861e2d1",
+            "title": "From Idea to App in Hours: Supercharge Your Business with Microsoft Power Platform and iLink Digital",
+            "username": "jerson@gmail.com",
+            "content": "[{\"id\":\"block_1750058167773_2lsd5qp7b\",\"type\":\"content\",\"data\":\"What if you could solve your most pressing business challenges without a lengthy, expensive development cycle? Imagine building custom applications in a matter of hours, automating tedious manual tasks with a few clicks, and turning mountains of raw data into crystal-clear insights.\\n\\nThis isn't a far-off future; it's the reality of a low-code revolution. And at the heart of it is the Microsoft Power Platform.\\n\\nAt iLink Digital, we believe that the best technology is the kind that empowers everyone to innovate. That\u2019s the magic of Power Platform, and we\u2019re here to make that magic a reality for your business.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058307276_zpzg0cl0q\",\"type\":\"subtitle\",\"data\":\"The Power to Transform: What is Microsoft Power Platform?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750058323997_fkewoaozt\",\"type\":\"content\",\"data\":\"Microsoft Power Platform is a suite of low-code tools that allows you to analyze data, build solutions, automate processes, and create virtual agents. It puts the power to create directly into the hands of the people who know the business best\u2014your team.\\n\\nLet's break it down:\\n\\nPower Apps: Rapidly build custom web and mobile apps for your specific business needs\u2014from inventory management to employee onboarding\u2014all without writing complex code.\\nPower Automate: Say goodbye to repetitive, manual work. Automate workflows between your favorite apps and services to streamline operations, get notifications, and sync files. Think automated approvals, data entry, and more.\\nPower BI: Connect to hundreds of data sources and create stunning, interactive dashboards. Turn your business data into real, actionable insights that drive strategic decisions.\\nPower Virtual Agents: Easily build intelligent chatbots to engage with customers and employees, answering common questions and freeing up your team to focus on high-value work.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058338093_0fj3m7ekk\",\"type\":\"subtitle\",\"data\":\"iLink Digital: Your Partner in Innovation\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750058355100_3ukk8vbb6\",\"type\":\"content\",\"data\":\"A powerful tool is only as good as the strategy behind it. That's where we come in.\\n\\niLink Digital helps businesses like yours unlock the full potential of the Power Platform. We don\u2019t just implement technology; we partner with you to understand your unique challenges and goals. From streamlining operations and boosting efficiency to fostering a culture of citizen development, we help you innovate faster and work smarter.\\n\\nOur clients have used Power Platform to:\\n\\nReplace paper-based forms with sleek mobile apps for field technicians.\\nAutomate the entire invoice approval process, saving hundreds of hours per month.\\nCreate a single, real-time sales dashboard that pulls data from multiple systems for a 360-degree view of performance.\\nStay Ahead of the Curve\\nThe world of digital transformation is moving fast, but you don't have to navigate it alone. We are committed to sharing our knowledge to help you succeed. Follow our page and blog for expert insights, real-world success stories, and the latest updates from the Power Platform ecosystem.\\n\\nOur team of dedicated experts is passionate about helping you achieve your goals.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058370268_msekngg2b\",\"type\":\"subtitle\",\"data\":\"Ready to Supercharge Your Journey?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750058366805_k4pau4p45\",\"type\":\"content\",\"data\":\"If you're ready to stop waiting and start building, we're ready to help. Let's discuss how your business can leverage the Power Platform to achieve remarkable results.\\n\\nGet in touch today at power-platform@ilink-digital.com and let\u2019s make it happen!\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058415428_thhezxs1v\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/f06486b57bd44e308cd43976a3cc78de.webp\",\"placeholder\":\"Enter image URL...\"}]",
+            "tags": [
+                "ilink-digital"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/0ffd4ad9c7074bbbae3f9a5ed4cdb36b.png",
+            "published": true,
+            "created_at": "2025-06-16T07:21:34.699000",
+            "updated_at": "2025-06-16T07:21:34.699000",
+            "comment_count": 0,
+            "likes_count": 1
+        },
+        {
+            "_id": "684fc7384e00a507626ad3ae",
+            "user_id": "684931387c04df1fb33de097",
+            "title": "The Digital Identity: Understanding Cookies, Cache, and Sessions in Browsers",
+            "username": "abdullahfirdowsi@gmail.com",
+            "content": "[{\"id\":\"block_1750058624805_k7a8otbai\",\"type\":\"content\",\"data\":\"In the digital age, every click, login, and cart item leaves a trace. That trace forms your digital identity within your browser. This identity helps websites recognize, remember, and personalize your experience. But it also comes with concerns around privacy, performance, and security.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058636749_wv81alpdy\",\"type\":\"subtitle\",\"data\":\"Why Digital Identity Matters\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750058645205_4lk499e29\",\"type\":\"content\",\"data\":\"User Experience: Saves preferences and login status.\\n\\nPersonalization: Allows tailored content.\\n\\nSecurity: Helps validate and manage user access.\\n\\nWithout these mechanisms, you\u2019d be logged out every time you visit a site or refresh a page.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058662356_b58x0q097\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/2e1c4754315c421ba3bd2c1c39b3a431.webp\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750058669765_vzwezjavu\",\"type\":\"content\",\"data\":\"In this blog, we\u2019ll explore the key components that shape your digital identity in a browser:\\n\\nCookies \ud83c\udf6a\\nCache \ud83d\udce6\\nSessions \ud83d\udd52\\n\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058696420_bvwdvfp4k\",\"type\":\"content\",\"data\":\"\ud83c\udf6a 1. Cookies\\nWhat are cookies? Cookies are small text files stored on your device by a website to remember your actions and preferences.\\n\\nTypes of Cookies:\\n\\nFirst-party cookies: Set by the site you\u2019re visiting.\\nThird-party cookies: Set by external domains (often used for ads and tracking).\\nCookie Lifespan:\\n\\nSession cookies: Deleted when the browser closes.\\nPersistent cookies: Stay until manually deleted or they expire.\\nCommon Use Cases:\\n\\nStaying logged in\\nRemembering language or theme\\nTracking visits for analytics\\nSecurity Flags:\\n\\nSecure: Ensures cookies are sent over HTTPS only.\\nHttpOnly: Prevents JavaScript access (protects from XSS).\\nSameSite: Prevents CSRF by controlling cross-site sending.\\nLegal/Privacy Concerns:\\n\\nGDPR and CCPA require cookie consent and clear data usage policies.\\n\ud83d\udce6 2. Cache\\nWhat is browser cache? Cache stores copies of static website resources locally to improve load speed and reduce server load.\\n\\nWhat Gets Cached:\\n\\nHTML, CSS, JavaScript\\nImages, fonts, videos\\nHow It Helps:\\n\\nFaster page loads on return visits\\nReduced data usage\\nCache Control & Expiration:\\n\\nDevelopers use headers (like Cache-Control, ETag) to manage caching.\\nCommon Issues:\\n\\nOutdated files not reflecting updates \u2192 use hard refresh (Ctrl + Shift + R)\\n\ud83d\udd52 3. Sessions\\nWhat is a session? A session is a temporary interaction between a browser and a server, tracked using a session ID.\\n\\nWhere It\u2019s Managed:\\n\\nTypically on the server, while the browser holds the session ID (often in a cookie).\\nUse Cases:\\n\\nKeeping users logged in\\nMulti-step forms\\nShopping carts\\nSession Timeout:\\n\\nEnds after inactivity or browser close, depending on setup\\nHow One Tab Logs You in Across Other Tabs\\nWhen you log in on one tab, the session ID or auth token is saved in a cookie or localStorage.\\n\\nOther tabs on the same domain automatically access this stored token and detect you\u2019re already authenticated. This eliminates the need to re-enter your credentials on every single tab you open. The browser handles the behind-the-scenes magic, ensuring a seamless and convenient browsing experience. Just be mindful of security best practices, like using strong passwords and avoiding suspicious websites, to keep your browsing session safe and sound.\\n\\nWhy Clearing Cookies or Cache Fixes Problems\\nClearing cookies resets login sessions.\\nClearing cache ensures updated website assets are fetched.\\nFixes issues like being stuck logged in/out or seeing stale content.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058708213_j288x2bs5\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/01720ce5a16248ee9ec5c9a1fd0e3419.webp\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750058667676_prq6urzvw\",\"type\":\"subtitle\",\"data\":\"\ud83d\udd2e Trends & The Future of Browser Storage\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750058729044_4068pcw96\",\"type\":\"content\",\"data\":\"Third-party cookies are being deprecated (privacy concerns)\\n\\nPrivacy-focused browsers (Brave, Firefox) block trackers by default\\n\\nNew APIs (Storage Access API, Private State Tokens)\\n\\nRise of SPAs and PWAs \u2192 more frontend state management\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750058736405_jys9hhm22\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/27b1ced1467b413b90a573c8279166b9.webp\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750058752101_ewojvo8yy\",\"type\":\"subtitle\",\"data\":\"\u2705 Conclusion\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750058772533_24idtienc\",\"type\":\"content\",\"data\":\"Understanding how browsers store and manage your digital identity \u2014 via cookies, cache, sessions, and state \u2014 is essential for developers and helpful for users.\\n\\nIt\u2019s not just about convenience; it\u2019s about security, speed, and control.\\n\\n\ud83d\udd12 Keep your identity safe, and build user-first web apps with smart storage decisions.\\n\\nFollow for more technical deep dives made easy!\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "cookies",
+                "website"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/bfde1d19c046424592b574f0068af529.webp",
+            "published": true,
+            "created_at": "2025-06-16T07:26:48.038000",
+            "updated_at": "2025-06-16T07:28:09.144000",
+            "comment_count": 0,
+            "likes_count": 0
+        },
+        {
+            "_id": "684fc8004e00a507626ad3b0",
+            "user_id": "684931387c04df1fb33de097",
+            "title": "\ud83d\ude80 Deploy Like a Pro: The Beginner\u2019s Handbook to Web App Deployment",
+            "username": "abdullahfirdowsi@gmail.com",
+            "content": "[{\"id\":\"block_1750058919429_f4i9bzl8e\",\"type\":\"content\",\"data\":\"You built it. It works. You\u2019re proud.\\nBut now the world needs to see it. And that means one thing:\\n\\nDeployment \u2014 turning your project into a live, accessible application.\\n\\nIn this blog, we\u2019ll decode the deployment journey \u2014 from static websites to full-stack apps \u2014 using tools like GitHub Pages, Render, Vercel, Netlify, and Cloud services like AWS or Azure.\\n\\nThis is your go-to guide to understand what deployment means, how to pick the right platform, and push your project live \u2014 whether you\u2019re a student, developer, or indie hacker.\\n\\n\\n\ud83e\udde0 What Is Deployment?\\nDeployment is the process of taking your local project and making it available on the internet so users can access it via a URL.\\n\\nThink of it like publishing a book:\\n\\nYou\u2019ve written (coded) it\\nDeployment puts it in bookstores (internet)\\n\ud83d\uddc2\ufe0f Types of Projects and Their Deployment Needs\\n\\n\ud83d\udd27 Common Platforms (Quick Overview)\\n1. GitHub Pages\\nGreat for: Portfolios, documentation, static sites\\n\\nSteps:\\ngit init \\ngit remote add origin <your-repo> \\ngit push -u origin main # Enable Pages in repo settings\\nURL: https://username.github.io/repo-name/\\n\\n2. Netlify\\nDrag and drop your static site or connect to GitHub.\\nHandles CI/CD automatically.\\nFree tier: Custom domain, HTTPS, 100GB bandwidth\\n\\n3. Vercel\\nPerfect for React/Next.js projects.\\nIntegrates with GitHub, GitLab, Bitbucket.\\nAuto-deploys on every commit.\\n\\n4. Render\\nSupports backend frameworks (Flask, Express, etc.)\\nFree web services, auto HTTPS, Git integration.\\nSetup a render.yaml for config.\\n\\n5. Heroku (legacy, still used)\\nApp-based deployment (Node, Python, Ruby).\\nCLI based: git push heroku main\\nDyno system (limited on free tier)\\n\\n\\n\\n\ud83d\udce1 What About Backends?\\nYou can deploy your backend APIs using:\\n\\n\ud83d\udc0d Python (Flask/FastAPI)\\nUse Render:\\n\\nUpload code to GitHub\\nConnect Render, set start command: gunicorn app:app\\nChoose Python runtime, add environment variables\\n\ud83d\udca1 Node.js\\nRender or Railway\\nUse express, push to GitHub, connect your repo\\nnpm init -y\\nnpm install express\\nYour server.js:\\n\\nconst express = require('express');\\nconst app = express();\\napp.get('/', (req, res) => res.send('Deployed!'));\\napp.listen(3000);\\n\ud83d\udcbe Add a Database\\n\ud83d\udc18 PostgreSQL on Render\\nCreate managed database\\nLink to backend\\nAdd DB_URL to environment variables\\n\ud83e\udde9 What Is CI/CD?\\nCI/CD stands for Continuous Integration/Continuous Deployment\\nAutomatically builds and deploys on every code change\\nGitHub Actions, Netlify/Vercel CI pipelines\\nExample:\\n\\n# .github/workflows/deploy.yml\\nname: Deploy\\non:\\n  push:\\n    branches: [main]\\njobs:\\n  build:\\n    runs-on: ubuntu-latest\\n    steps:\\n      - uses: actions/checkout@v2\\n      - run: npm install && npm run build\\n\ud83e\uddfc Best Practices\\n\u2705 Use .env files for secrets\\n\u2705 Monitor logs for errors\\n\u2705 Add 404 routes in frontend\\n\u2705 Use HTTPS (most platforms enable this)\\n\u2705 Use robots.txt if you want to control indexing\\n\\n\ud83c\udf10 Real-World Scenarios\\n1. Portfolio Deployment\\nStatic HTML or React \u2192 Vercel/Netlify\\nAdd custom domain with GitHub Pages or Netlify\\n2. Blog with Backend\\nFrontend: Vercel (Angular/React)\\nBackend: Render (FastAPI or Flask)\\nDB: Render PostgreSQL\\n3. AI Model Web App\\nFrontend: Streamlit deployed via Streamlit Cloud or Render\\nModel API: Python backend (Render, Railway)\\n\\n\\n\u2705 Conclusion\\nDeployment isn\u2019t a scary DevOps monster. It\u2019s your bridge to the world. Once you understand platforms and flow, you\u2019ll start thinking not just in code, but in products.\\n\\n\ud83d\udce3 Start simple. Deploy often. Iterate fast.\\n\\n\ud83e\uddf5 Follow me for more dev insights every Wednesday!\\nNext up? Database Integrations Made Simple \ud83d\udd25\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "website",
+                "deployment"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/35d5e2887982426fa7b37f7272e1c8ea.jpg",
+            "published": true,
+            "created_at": "2025-06-16T07:30:08.800000",
+            "updated_at": "2025-06-16T07:30:08.800000",
+            "comment_count": 0,
+            "likes_count": 0
+        },
+        {
+            "_id": "684fc9104e00a507626ad3b1",
+            "user_id": "684945d5bfa90e5e9861e2d1",
+            "title": "iLink Digital Welcomes Haefele Software to Fuel Global Growth",
+            "username": "jerson@gmail.com",
+            "content": "[{\"id\":\"block_1750059211717_ik4r7i5rw\",\"type\":\"content\",\"data\":\"We are thrilled to announce an exciting milestone in our global expansion journey: iLink Digital has acquired a majority stake in Haefele Software!\\n\\nThis strategic partnership marks a pivotal moment for both companies and, most importantly, for the clients we serve. It\u2019s more than just an acquisition; it\u2019s the fusion of two incredible teams, two legacies of excellence, and a shared vision for the future of digital transformation.\\n\\nStronger Together: A Union of Expertise and Innovation\\nFor nearly two decades, Haefele Software has built an outstanding reputation for specialized software consultancy, earning trust and delivering results across diverse industries. Their deep-rooted expertise and commitment to quality are a perfect complement to iLink Digital\u2019s relentless drive for innovation and our deep capabilities in cutting-edge technology solutions.\\n\\nBy bringing these two powerhouses together, we are creating a synergy that will amplify our strengths and accelerate our mission. This partnership unites incredible talent, expands our knowledge base, and reinforces our ability to tackle the most complex business challenges with creativity and precision.\\n\\nExpanding Our Global Footprint\\nThis move significantly strengthens our presence in key global markets. With Haefele's established operations, we are excited to expand our reach and deepen our engagement in the United Kingdom, Ireland, and South Africa. This geographic expansion allows us to provide more localized support and culturally-attuned solutions while strengthening our global delivery network.\\n\\nWhat This Means for Our Clients\\nAt the heart of this decision is our commitment to delivering unparalleled value to our clients. Together, iLink Digital and Haefele Software are poised to:\\n\\nUnlock New Opportunities: Combining our service offerings means you have access to a broader spectrum of solutions and expertise under one roof.\\nFoster Greater Collaboration: Our integrated teams will work seamlessly to bring the best minds to your projects, driving more innovative outcomes.\\nDeliver with Speed and Impact: We are enhancing our agility and capacity, enabling us to deliver powerful solutions with greater flexibility and speed than ever before.\\nThis is a fantastic start to Q1 2025, and we are energized by the possibilities that lie ahead. We are confident that this partnership will not only foster incredible growth but will also create a powerful ripple effect of success for our clients worldwide.\\n\\nLearn More About Our Journey\\nWe invite you to read the full press release to discover how this powerful partnership is set to drive even more value for your business.\\n\\nRead the full announcement here\\nhttps://www.ilink-digital.com/insights/press-release/ilink-digital-acquires-majority-stake-in-haefele-software-specialized-software-consultancy/\\n\\nHere's to a future of shared success and groundbreaking innovation!\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750059258333_sp7bw3dix\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/f11bdb2d0c8646a7a0102405df0aba6e.jpg\",\"placeholder\":\"Enter image URL...\"}]",
+            "tags": [
+                "ilink-digital"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/ed82aa2713d340679169421690c5544f.jpg",
+            "published": true,
+            "created_at": "2025-06-16T07:34:40.762000",
+            "updated_at": "2025-06-16T07:34:40.762000",
+            "comment_count": 1,
+            "likes_count": 3
+        },
+        {
+            "_id": "684fca904e00a507626ad3b3",
+            "user_id": "684931387c04df1fb33de097",
+            "title": "The AI Revolution: More Than Just Buzzwords",
+            "username": "abdullahfirdowsi@gmail.com",
+            "content": "[{\"id\":\"block_1750059508022_xczv99xym\",\"type\":\"content\",\"data\":\"Artificial Intelligence (AI) is no longer a futuristic concept; it's a driving force shaping our present and undeniably defining our future. From the mundane to the groundbreaking, AI is weaving itself into the fabric of our daily lives and transforming industries at an unprecedented pace. But what exactly does this mean for us, and what does the road ahead look like?\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750059608605_9a4x07xn3\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/3f06bd78cb6642c599120aac28f06cfb.webp\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750059509365_g0hc4f20u\",\"type\":\"subtitle\",\"data\":\"AI in Our Everyday Lives: Closer Than You Think\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750059537989_ypdxv3rrh\",\"type\":\"content\",\"data\":\"You might not even realize how much AI you interact with daily. Think about it:\\n\\nYour Smartphone's Brain: Digital assistants like Siri and Google Assistant, facial recognition to unlock your phone, and autocorrect are all powered by AI.\\nSmarter Navigation: Map applications like Google Maps use AI to analyze real-time traffic data, suggest optimal routes, and predict arrival times.\\nPersonalized Experiences: Streaming services recommend your next binge-worthy show, e-commerce sites suggest products you might love, and social media feeds are curated just for you \u2013 all thanks to AI algorithms learning your preferences.\\nBehind the Scenes Guardians: Banks employ AI for fraud detection, flagging suspicious transactions by identifying patterns that deviate from your normal spending habits.\\nThese are just a few examples, showcasing how AI makes our lives more convenient, efficient, and personalized.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750059595134_9yx9t2dcl\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/b43bcaa1c11947ca975f9503b7b0328f.webp\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750059511605_h57n6br94\",\"type\":\"content\",\"data\":\"The AI revolution is here, and it's exhilarating. As we navigate this transformative era, it's crucial to embrace the immense potential of AI while actively addressing its ethical challenges. By fostering responsible development, promoting transparency, and prioritizing human-centric AI, we can ensure that this powerful technology serves humanity and creates a more innovative, efficient, and equitable future for all.\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "ai",
+                "generative-ai"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/640de36f414d4394bbe07526d3ada740.webp",
+            "published": true,
+            "created_at": "2025-06-16T07:41:04.022000",
+            "updated_at": "2025-06-19T09:57:54.060000",
+            "comment_count": 0,
+            "likes_count": 1
+        },
+        {
+            "_id": "684fcc374e00a507626ad3b7",
+            "user_id": "684fcaf14e00a507626ad3b4",
+            "title": "Beyond Rows and Columns: A Quick Dive into MongoDB",
+            "username": "prem@example.com",
+            "content": "[{\"id\":\"block_1750059917973_2ipztsfuu\",\"type\":\"content\",\"data\":\"In the world of data, we often think of neat spreadsheets\u2014rigid tables with clearly defined rows and columns. For decades, this has been the domain of SQL (Structured Query Language) databases. But what if your data is messy, unpredictable, and doesn't fit nicely into a box? Enter MongoDB.\\n\\nMongoDB is a leading player in the NoSQL (\\\"Not Only SQL\\\") database movement. Instead of tables and rows, it uses a far more flexible approach: documents and collections.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750059934030_dqhl1p1mq\",\"type\":\"subtitle\",\"data\":\"What's a Document?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750059936309_64gs4stdc\",\"type\":\"content\",\"data\":\"Imagine you have a filing cabinet. Instead of a spreadsheet, you have a folder for each user. Inside each folder is a document\u2014a single, self-contained record of that user's information. One user might have a name, email, and age. Another might have a name, email, a list of hobbies, and their last login date.\\n\\nIn MongoDB, these \\\"documents\\\" are stored in a format called BSON (a binary version of JSON), which looks like this:\\n\\n{\\n  \\\"name\\\": \\\"Alex Smith\\\",\\n  \\\"email\\\": \\\"alex@example.com\\\",\\n  \\\"hobbies\\\": [\\\"hiking\\\", \\\"coding\\\", \\\"chess\\\"],\\n  \\\"memberSince\\\": \\\"2023-01-15\\\"\\n}\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750059957158_xpmiiq1ex\",\"type\":\"subtitle\",\"data\":\"Why is MongoDB So Popular?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750059963422_dcg2038jb\",\"type\":\"content\",\"data\":\"Flexibility: This is the killer feature. With MongoDB, you don't need to define your entire data structure upfront. If you want to add a new piece of information (like a favorite_color field) to a user, you just add it. This is perfect for agile development and applications that need to evolve quickly.\\n\\nScalability: MongoDB was built for the modern web. It's designed to scale out horizontally, meaning you can distribute your data across multiple, cheaper servers as your application grows. This is a massive advantage for handling big data and high-traffic applications.\\n\\nPerformance: For many common use cases, like retrieving all the information about a single user or product, MongoDB is incredibly fast. Since all the related data is often in one document, the database doesn't need to perform complex \\\"joins\\\" to piece information together from different tables.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750059984877_98aobcyza\",\"type\":\"subtitle\",\"data\":\"When Should You Use It?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750059993389_3kwy8s8nx\",\"type\":\"content\",\"data\":\"MongoDB shines in applications where the data is varied or unstructured. It's a fantastic choice for:\\n\\nContent Management Systems: Storing articles, user profiles, and comments.\\nE-commerce: Managing product catalogs where items have different attributes.\\nBig Data & IoT: Ingesting huge volumes of data from various sensors and sources.\\nMobile and Real-Time Apps: Quickly reading and writing user data that changes frequently.\\nWhile traditional SQL databases are still the champions for highly structured, relational data (like financial transactions), MongoDB offers a powerful and flexible alternative for the dynamic needs of modern application development.\\n\\nSo, the next time you're starting a project, ask yourself: does my data look more like a flexible document or a rigid spreadsheet? If it's the former, MongoDB might be your perfect match.\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "db",
+                "mongodb"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/b2663da14c9b40d8a8dd60916ce71897.png",
+            "published": true,
+            "created_at": "2025-06-16T07:48:07.916000",
+            "updated_at": "2025-06-16T07:49:12.330000",
+            "comment_count": 0,
+            "likes_count": 2
+        },
+        {
+            "_id": "6853a452ce568c2951709c96",
+            "user_id": "6853a117ce568c2951709c90",
+            "title": "Understanding C Programming: The Foundation of Modern Software Development",
+            "username": "717821f230",
+            "content": "[{\"id\":\"block_1750311486562_ex3ceuj44\",\"type\":\"content\",\"data\":\"C programming language, often referred to simply as C, is one of the most influential and widely used programming languages in the world. Developed in the early 1970s by Dennis Ritchie at Bell Labs, C has laid the groundwork for many other languages and remains a core skill for programmers, especially those interested in system software, embedded systems, and high-performance applications.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750352064599_memvhcnkw\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/3d706ca9f7854959b4496105264c9c45.png\",\"placeholder\":\"Enter image URL...\"},{\"id\":\"block_1750311501945_x58leutvl\",\"type\":\"subtitle\",\"data\":\"Why C Programming?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750311527280_ab9rvsth2\",\"type\":\"content\",\"data\":\"C is celebrated for its efficiency, portability, and close-to-hardware capabilities. It strikes a balance between low-level manipulation of hardware and high-level programming features, making it an ideal choice for a variety of application domains.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750311533624_7t3iq68ei\",\"type\":\"subtitle\",\"data\":\"Key Features of C Language:\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750311543371_civshzlj5\",\"type\":\"content\",\"data\":\"* Procedural Language: Emphasizes a sequence of functions and procedures, making the code modular and manageable.\\n* Low-Level Access: Provides pointers, direct memory access, and hardware interface capabilities.\\n* Portability: Code written in C can be compiled on different platforms with minimal modification.\\n* Efficiency: Offers high performance, which is essential for system-level software.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750311571753_bekbs7mip\",\"type\":\"subtitle\",\"data\":\"Basic Syntax and Structure\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750311579447_mfc7tun3t\",\"type\":\"content\",\"data\":\"Getting started with C involves understanding its basic syntax and structure. Here is a simple \\\"Hello, World!\\\" program in C:\\n\\n#include <stdio.h>\\n\\nint main() {\\n    printf(\\\"Hello, World!\\\\n\\\");\\n    return 0;\\n}\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750311654766_v7pe03tcr\",\"type\":\"content\",\"data\":\"Conclusion\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750311667032_ddzd04xn3\",\"type\":\"content\",\"data\":\"C programming remains relevant and powerful for those interested in system-level programming, performance-critical applications, or simply understanding how computers work beneath the surface. Mastering C opens doors to a solid understanding of computing fundamentals and prepares you for advanced programming challenges.\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750679680810_a8ch1p5y5\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/945fdde924004b12a74cd2b718c1c199.jpg\",\"placeholder\":\"Enter image URL...\"}]",
+            "tags": [
+                "c",
+                "language",
+                "programming",
+                "tech"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/0776bf14e27d4c89a1b4c2afb376befe.png",
+            "published": true,
+            "created_at": "2025-06-19T05:46:58.159000",
+            "updated_at": "2025-06-23T11:55:16.889000",
+            "comment_count": 3,
+            "likes_count": 1
+        },
+        {
+            "_id": "6859418d88c12c83f62b9a3b",
+            "user_id": "68593f2088c12c83f62b9a3a",
+            "title": "AI techiee",
+            "username": "717821s153",
+            "content": "[{\"id\":\"block_1750679854865_go8mtmd04\",\"type\":\"subtitle\",\"data\":\"AI is the ability of machines or computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, problem-sol\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1750679867328_ex7hx90uw\",\"type\":\"content\",\"data\":\"Artificial Intelligence (AI) refers to the ability of machines or computer systems to perform tasks that typically require human intelligence. These tasks include learning from data, reasoning, problem-solving, understanding language, recognizing patterns, and even making decisions.\\nThere are different types of AI:\\n- Narrow AI: Designed for specific tasks (like voice assistants or recommendation systems).\\n- General AI: A theoretical form that can perform any intellectual task a human can.\\n- Superintelligent AI: A hypothetical future AI that surpasses human intelligence in all aspects.\\nAI works through technologies like:\\n- Machine Learning: Systems learn from data without being explicitly programmed.\\n- Natural Language Processing (NLP): Enables machines to understand and respond to human language.\\n- Computer Vision: Allows machines to interpret and process visual information.\\n\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1750679886051_hv44xqgxo\",\"type\":\"image\",\"data\":\"https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/5b4993f43fe74962b475830d1c2be9e1.webp\",\"placeholder\":\"Enter image URL...\"}]",
+            "tags": [
+                "ai"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/a49872f903944691bd33a360ef5f6acd.webp",
+            "published": true,
+            "created_at": "2025-06-23T11:59:09.932000",
+            "updated_at": "2025-06-23T11:59:09.932000",
+            "comment_count": 4,
+            "likes_count": 4
+        },
+        {
+            "_id": "68834c7bad781804c537cdfa",
+            "user_id": "684931387c04df1fb33de097",
+            "username": "abdullahfirdowsi",
+            "title": "Prompt Engineering for Real-World Applications: What Actually Works in 2025",
+            "content": "[{\"id\":\"block_1753435171318_k8i9abxdx\",\"type\":\"subtitle\",\"data\":\"What\u2019s the Problem?\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1753435186310_f93gs7klu\",\"type\":\"content\",\"data\":\"LLMs don\u2019t understand \u2014 they generate based on statistical patterns.\\n\\nSo your results depend heavily on\\n\\nThe wording of your prompt\\nThe context window\\nStructure, tone, temperature\\nWhether you use RAG, tools, or functions\\n\\nPoor prompting leads to:\\n\\nHallucinations\\nIrrelevant answers\\nConfused users\\nWasted tokens\",\"placeholder\":\"Start writing your content...\"},{\"id\":\"block_1753435189894_y2vsl0ofr\",\"type\":\"subtitle\",\"data\":\"Real-World Prompt Stack for Devs\",\"placeholder\":\"Enter subtitle...\"},{\"id\":\"block_1753435200606_zqh2r1l93\",\"type\":\"content\",\"data\":\"Here\u2019s how to set up a good prompt engineering flow:\\n\\nIf you're building serious AI products \u2014 like chatbots, assistants, analytics tools, or education apps \u2014 prompt engineering alone isn\u2019t enough.\\n\\nYou need a prompt stack \u2014 a combination of tools, layers, and workflows that help you design, test, deploy, and optimize LLM prompts in real-world production.\\n\\nHere\u2019s what that stack looks like:\\n\\n\ud83d\udccc 1. Prompt Design Layer\\nThis is where you write and structure your prompts.\\n\\nTools:\\nPromptPerfect \u2013 Auto-optimizes vague prompts into clear, efficient versions.\\nNotion / Obsidian / Logseq \u2013 Great for maintaining prompt libraries with examples and notes.\\nFlowGPT / PromptBase \u2013 Explore prompts shared by others and adapt them.\\n\\nBest Practices:\\nUse role-based instructions: \u201cYou are a data analyst\u2026\u201d\\nSet output constraints: \u201cAnswer in less than 100 words using markdown.\u201d\\nAdd examples (few-shot prompting): Input \u2192 Output pair examples\\n\\n\u2705 This layer is your prompt engineering workspace.\\n\\n\ud83e\uddea 2. Prompt Testing Layer\\nYou test how the LLM reacts to different variations of your prompt.\\n\\nTools:\\nOpenAI Playground \u2013 Adjust temperature, stop tokens, frequency penalties\\nPromptLayer \u2013 Logs and tracks all prompt \u2192 response pairs\\nLangChain Hub \u2013 Reusable, testable prompt templates for devs\\nVercel AI Playground \u2013 For testing multiple models with UI and streaming\\n\\nWhat to Test:\\nOutput accuracy across use cases\\nEdge cases or error handling\\nLatency and token usage\\nOutput format consistency\\n\\n\u2705 This layer ensures the prompt works reliably in different conditions.\\n\\n\ud83e\udde0 3. Embedding + Retrieval Layer\\nIf your AI app needs custom or private data (like documents, FAQs, or chat history), prompts alone aren\u2019t enough. You need RAG (Retrieval-Augmented Generation).\\n\\nTools:\\nVector DBs: ChromaDB, FAISS, Pinecone, Weaviate\\nEmbedding Models: OpenAI, Hugging Face, Cohere\\nLangChain or LlamaIndex to orchestrate retrieval\\n\\nWorkflow:\\nConvert your data into embeddings\\nStore them in a vector DB\\nQuery that DB at runtime based on user input\\nInject the result into the prompt dynamically\\n\\n\u2705 This allows the LLM to \\\"know\\\" your custom data without retraining.\\n\\n\u2699\ufe0f 4. Model Invocation & Orchestration Layer\\nNow that your prompt and context are ready, you need to call the model and control the flow.\\n\\nTools:\\nLangChain \u2013 For chaining prompts, tools, memory, and outputs\\nTransformers (Hugging Face) \u2013 For running models locally or via APIs\\nFastAPI / Node.js / Flask \u2013 Backend to wrap and serve your prompts\\nFunction calling \u2013 Use OpenAI or Gemini to call your own functions from prompts\\n\\n\u2705 This layer ensures LLMs interact with real data, tools, or business logic.\\n\\n\ud83d\udcca 5. Logging + Feedback Loop Layer\\nThis layer helps you measure performance and improve over time.\\n\\nTools:\\nPromptLayer \u2013 Monitor prompts + user feedback\\nLangSmith \u2013 Observe chains, outputs, latency, and failures\\nPinecone dashboards \u2013 Monitor vector search behavior\\nManual Logs + Annotations \u2013 Simple tracking to start with\\n\\nWhat to Track:\\nUser thumbs-up/down\\nOutput confidence scores (if available)\\nPrompt failures or hallucinations\\nLatency + token cost\\n\\n\u2705 This layer helps create a data-driven prompt improvement loop.\\n\\n\ud83d\udee0\ufe0f 6. Deployment + UX Layer\\nDeliver the LLM experience to users with safety and quality.\\n\\nStack Components:\\nReact / Next.js / Streamlit / Flutter \u2013 For frontend UIs\\nFirebase or Supabase \u2013 Store user feedback or chat history\\nPydantic / Zod \u2013 Validate input/output structure\\nRate limits, guards, or fallback prompts \u2013 Ensure reliability\\n\\n\u2705 This is where the user interacts \u2014 so clarity, speed, and UX matter.\",\"placeholder\":\"Start writing your content...\"}]",
+            "tags": [
+                "generative-ai"
+            ],
+            "main_image_url": "https://blog-app-2025.s3.eu-north-1.amazonaws.com/uploads/074a9068c8714caa90c65ef657e0e5df.webp",
+            "published": true,
+            "created_at": "2025-07-25T09:20:59.612000",
+            "updated_at": "2025-07-25T10:13:02.398000",
+            "comment_count": 1,
+            "likes_count": 1
+        }
+    ],
+    "users": [
+        {
+            "_id": "684931357c04df1fb33de096",
+            "username": "Prem Kumar Sridhar",
+            "email": "premkumar.sridhar021@gmail.com",
+            "password_hash": "$2b$12$g0hqYyyEd6lLLblMLQFOtugtd/UBkAMJbWfemfD1NDH.IUA.MyhKi",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwcmVta3VtYXIuc3JpZGhhcjAyMUBnbWFpbC5jb20iLCJleHAiOjE3NTQ0ODAyMTl9.iQ1sEx8M9Gwxb-Warv4fHLYZBR3FyOUointHNu6iA0c",
+            "created_at": "2025-06-11T07:33:09.854000",
+            "email_verified": true
+        },
+        {
+            "_id": "684931387c04df1fb33de097",
+            "username": "abdullahfirdowsi",
+            "email": "abdullahfirdowsi@gmail.com",
+            "password_hash": "$2b$12$4oBkf0pLqwx0zIR0RL8PAugCypREu8eswC8CCIQVIOeqS56Ao9jFy",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYmR1bGxhaGZpcmRvd3NpQGdtYWlsLmNvbSIsImVtYWlsIjoiYWJkdWxsYWhmaXJkb3dzaUBnbWFpbC5jb20iLCJuYmYiOjE3NTM0NDI3ODcsImV4cCI6MTc1NDczODc4NywiaWF0IjoxNzUzNDQyNzg3fQ.yFWMGB_fen0SAGGStVPjY7Pvk6tsyKLaBddrOk2j_LA",
+            "created_at": "2025-06-11T07:33:12.455000",
+            "email_verified": true
+        },
+        {
+            "_id": "684934fa7c04df1fb33de0a0",
+            "username": "Lakshmana",
+            "email": "lakshmana.jv@gmail.com",
+            "password_hash": "$2b$12$3BGJES9jtZ/haFZktHeSvOQzDvrFUCYii5eUdBRItg5REb7Ye4LGG",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYWtzaG1hbmEuanZAZ21haWwuY29tIiwiZXhwIjoxNzUwOTI0MTYyfQ.hH1G2NjKcYFAKxB1WEoRCww5RSqonFsgAq_gBsAmrzc",
+            "created_at": "2025-06-11T07:49:14.953000"
+        },
+        {
+            "_id": "6849425ebfa90e5e9861e2d0",
+            "username": "Gokul.k@gmail.com",
+            "email": "Gokul.k@gmail.com",
+            "password_hash": "$2b$12$ykvv05Qm3Ei2ke6NPOnq5OLa2iRp/oi3MGCGzYvKs/x31c71ZY5YC",
+            "refresh_token": null,
+            "created_at": "2025-06-11T08:46:22.996000"
+        },
+        {
+            "_id": "684945d5bfa90e5e9861e2d1",
+            "username": "jerson",
+            "email": "jerson@gmail.com",
+            "password_hash": "$2b$12$RH6LHhP3p2T54o4LelVsnu3SYpG2eKm1n8Vb4mGs9jtTjksFSbaka",
+            "refresh_token": null,
+            "created_at": "2025-06-11T09:01:09.296000"
+        },
+        {
+            "_id": "68494dfdc8bbf5a8ae594ead",
+            "username": "vedant.kavhar@ilink-systems.com",
+            "email": "vedant.kavhar@ilink-systems.com",
+            "password_hash": "$2b$12$Ke.UVqXkgeteeaYhaD4.vOaAHH6QQHWSoWThDMHQ4VQYEAxoyKLim",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2ZWRhbnQua2F2aGFyQGlsaW5rLXN5c3RlbXMuY29tIiwiZXhwIjoxNzUwOTMwNTc3fQ.09Y6ifph_VUnSEx7D_CB5wVKT8WdjlhLauDuASHNQJ0",
+            "created_at": "2025-06-11T09:35:57.595000"
+        },
+        {
+            "_id": "68495463c8bbf5a8ae594eb0",
+            "username": "gvhv@gmail.com",
+            "email": "gvhv@gmail.com",
+            "password_hash": "$2b$12$hEMqZiCZpc905JehcKdU0esXPRK/MdF58u4eymNdQ1lUUCbZcAWU6",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJndmh2QGdtYWlsLmNvbSIsImV4cCI6MTc1MDkzMjIxMX0.qiRxnpYZIkoJWU5HmEhtgfMHJWFEYhKYjM5o6HnCQ2Y",
+            "created_at": "2025-06-11T10:03:15.093000"
+        },
+        {
+            "_id": "6849754312d53c9f61988a20",
+            "username": "hello@gmail.com",
+            "email": "hello@gmail.com",
+            "password_hash": "$2b$12$FKbyyZ9O.1HnoKmybOFDDOcwg50MYv.gP4uHXuod6O0O1rT5dfoXi",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWxsb0BnbWFpbC5jb20iLCJleHAiOjE3NTA5NDA2MzF9.CaqMQTzaEp0Yjkx5sGMeskbUT2s8Qqp3Jrdv4nOoX0I",
+            "created_at": "2025-06-11T12:23:31.241000"
+        },
+        {
+            "_id": "684fcaf14e00a507626ad3b4",
+            "username": "prem",
+            "email": "prem@example.com",
+            "password_hash": "$2b$12$DW6dI31qL3aQksNeoJT5luzx7L1EskDtjrIWDImKViiXIVCeXvzT2",
+            "refresh_token": null,
+            "created_at": "2025-06-16T07:42:41.044000"
+        },
+        {
+            "_id": "685003c06b836c677b899b46",
+            "username": "guru",
+            "email": "guru@example.com",
+            "password_hash": "$2b$12$z8k6hZzBdSwseF3MfJMjyO77Z74an4gDoetjfEG8J38E9UhiIN/2a",
+            "refresh_token": null,
+            "created_at": "2025-06-16T11:45:04.148000"
+        },
+        {
+            "_id": "685003c76b836c677b899b47",
+            "username": "guru@test.com",
+            "email": "guru@test.com",
+            "password_hash": "$2b$12$b6L8vlBj7NdAvySS3Cjoq.533jWifDLcnwWq5H0s.pcXLlldVhYwu",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJndXJ1QHRlc3QuY29tIiwiZXhwIjoxNzUxMzcwMzMxfQ.xX6yDwi4FRNgaRH-d1Hb2jKePnsMb1gDkCBmOWaMPTo",
+            "created_at": "2025-06-16T11:45:11.947000"
+        },
+        {
+            "_id": "68528faaaafa56e45d32c257",
+            "username": "abdullahtrickings",
+            "email": "abdullahtrickings@gmail.com",
+            "password_hash": "$2b$12$RFvFn5Da02njkPUD0D8/cOl6UQ81D7P9qAu98hCWtSkVNb7/dYr9q",
+            "refresh_token": null,
+            "created_at": "2025-06-18T15:36:34.651000",
+            "email_verified": true
+        },
+        {
+            "_id": "6853a117ce568c2951709c90",
+            "username": "mathesh_m",
+            "email": "717821f230@kce.ac.in",
+            "password_hash": "$2b$12$BmRR8caOO947ZRrc12E1WuocIg2gFKd.2QU8C7VKDfcJKfhYVhbVy",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MTc4MjFmMjMwQGtjZS5hYy5pbiIsImV4cCI6MTc1MTI4NTM1NH0.3pBlh2AmFlAVQU7O-Oceg4W021lma7G17qtGu4TzyE0",
+            "created_at": "2025-06-19T05:33:11.516000",
+            "email_verified": true
+        },
+        {
+            "_id": "6853adb5a1d2493035db3a14",
+            "username": "sstamilarasan14",
+            "email": "sstamilarasan14@gmail.com",
+            "password_hash": "$2b$12$88PGRTtlP7xaywl8dipO/.SoqfdUO.UFHk2RY9KZw6vSQGOdAfpb2",
+            "refresh_token": null,
+            "created_at": "2025-06-19T06:27:01.074000",
+            "email_verified": false,
+            "email_verification_token": "7c6ce2289ab159f9a5a3a44a3cef60c581cafb46b162d120f2961f3fb9160983",
+            "email_verification_token_expires": "2025-06-20T06:27:01.546000"
+        },
+        {
+            "_id": "68541b6c4867ca78845a1e70",
+            "username": "mithies",
+            "email": "mithiesofficial@gmail.com",
+            "password_hash": "$2b$12$JsXh5MQ/LviuoooRhj21guoBxIYVLLlvAR2ktg90Hm0HBquwQnGa.",
+            "refresh_token": null,
+            "created_at": "2025-06-19T14:15:08.771000",
+            "email_verified": true
+        },
+        {
+            "_id": "6854f73d9b87c01944feb45f",
+            "username": "blogplatform.live",
+            "email": "blogplatform.live@gmail.com",
+            "password_hash": "$2b$12$4oNlnL/GHPRlTG7PXIpP5OcT./U7KkvnYbTrbzQdbEmfAaJSDTvbG",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJibG9ncGxhdGZvcm0ubGl2ZUBnbWFpbC5jb20iLCJleHAiOjE3NTEwMzM0NDR9.4qS4R0FJ46r7v8RlGtC7DQzPZ4rHFKwhrjd2i2nKYUc",
+            "created_at": "2025-06-20T11:23:01.499000",
+            "email_verified": true
+        },
+        {
+            "_id": "68551b2791c3b44651e7ce78",
+            "username": "shanmuganathankruthika",
+            "email": "shanmuganathankruthika@gmail.com",
+            "password_hash": "$2b$12$d.Nzsm7NL6VzTLRTW0rAxemJ6iLxUOOWooIbLlZt.FTiO2VmcNagS",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaGFubXVnYW5hdGhhbmtydXRoaWthQGdtYWlsLmNvbSIsImV4cCI6MTc1MTAxMzI5NH0._ojIRr1bXmbf090HlqrtiEruPgzzH9GV0gSe9k7zqO4",
+            "created_at": "2025-06-20T08:26:15.644000",
+            "email_verified": true
+        },
+        {
+            "_id": "68551bf891c3b44651e7ce79",
+            "username": "717821i102",
+            "email": "717821i102@kce.ac.in",
+            "password_hash": "$2b$12$j1k0Yn6xHUlIASD92Sp38epdOkZMnM5DEIxItRfn/6uda0F7f4hEK",
+            "refresh_token": null,
+            "created_at": "2025-06-20T08:29:44.241000",
+            "email_verified": false,
+            "email_verification_token": "689b7016e1e76c2dba006a1f27fa87e4274642aafb950022fdea9f0ff63b3bd6",
+            "email_verification_token_expires": "2025-06-21T08:29:44.702000"
+        },
+        {
+            "_id": "6857d65f7d84fc404fe730ef",
+            "username": "dilip",
+            "email": "dilipcrps07.01.2004@gmail.com",
+            "password_hash": "$2b$12$DjOU2DTv1kyQZVNwnmlRVuzVzP4YBc88eta5Fa0Q8EoeoRP16in.6",
+            "refresh_token": null,
+            "created_at": "2025-06-22T15:39:35.375000"
+        },
+        {
+            "_id": "6858e6b39b1cd580f5b411b7",
+            "username": "dilip",
+            "email": "dilip@example.com",
+            "password_hash": "$2b$12$RScBOL4gBsFLKspcyf6Srurgjjhb4CgpPmy5z/yzKvD3SuH2XN.Eu",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxpcEBleGFtcGxlLmNvbSIsImV4cCI6MTc1MTk3NjkxMH0.SbkDlU3nyn8UrdU9W38RQsTr9mtVYTpzncirT_1FIg0",
+            "created_at": "2025-06-23T11:01:31.403000"
+        },
+        {
+            "_id": "68593f2088c12c83f62b9a3a",
+            "username": "sharu",
+            "email": "717821s153@kce.ac.in",
+            "password_hash": "$2b$12$3Qr6GErTCVD1UmGzcM9h5.OHP5jOplh1wWPgboFZIKx0lwxgMNKQW",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MTc4MjFzMTUzQGtjZS5hYy5pbiIsImV4cCI6MTc1MTI4NTc4Mn0.CaZ7fMKadTfNgGwFruSN27OS6GuoOFFIR0oOhCATyos",
+            "created_at": "2025-06-23T11:48:48.679000",
+            "email_verified": true
+        },
+        {
+            "_id": "686e3383173852e0bbd99d71",
+            "username": "k.guna0314",
+            "email": "k.guna0314@gmail.com",
+            "password_hash": "$2b$12$7PfnMhvs/wYKtqynJq2QPeCI50r1tYiu47kFTWCUo860gExOdtPuC",
+            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrLmd1bmEwMzE0QGdtYWlsLmNvbSIsImV4cCI6MTc1MzM0ODYzNX0.q31T2xjisYPh1p0KAuFHgWvcin6o9XSOpRh2VauL9vk",
+            "created_at": "2025-07-09T09:16:51.757000"
+        },
+        {
+            "_id": "687a12c080c212c66ebd8a75",
+            "username": "srinithijk77",
+            "email": "srinithijk77@gmail.com",
+            "password_hash": "$2b$12$iDz/WZh/2hmS9cre4hPKpO08Ins117tQLJJzV8JUq.DYlApGC61Oq",
+            "refresh_token": null,
+            "created_at": "2025-07-18T09:24:16.503000"
+        },
+        {
+            "_id": "687a154b80c212c66ebd8a7a",
+            "username": "suresh123",
+            "email": "suresh123@gmail.com",
+            "password_hash": "$2b$12$w6yo8dKjH77MMTaXIuIfueb7EaQ2UbwkpSmqcSIyZnbVKrOAT2yri",
+            "refresh_token": null,
+            "created_at": "2025-07-18T09:35:07.109000"
+        },
+        {
+            "_id": "68830ede98726732b794b8b8",
+            "username": "testuser",
+            "email": "test@example.com",
+            "password_hash": "$2b$12$aYfjwkOZszUQqy8sVPYyLeH8ED.X4jqCSZDlqIhKezHGQ5FXUkg8S",
+            "refresh_token": null,
+            "created_at": "2025-07-25T10:28:06.186000"
+        },
+        {
+            "_id": "68830eee98726732b794b8b9",
+            "username": "newuser",
+            "email": "newuser@example.com",
+            "password_hash": "$2b$12$2SnOci2kiQkkwH8FTAhxCevWNVFg8rHNi6pfG/2RVb2UvF/xNzqyy",
+            "refresh_token": null,
+            "created_at": "2025-07-25T10:28:22.290000"
+        },
+        {
+            "_id": "68830f0c98726732b794b8ba",
+            "username": "test",
+            "email": "test@xyz.com",
+            "password_hash": "$2b$12$J0Ma4a3l.2UDmqBZ9HHVueJtFZImdKnnRYBpUkG6mP6/uJiShB6Zi",
+            "refresh_token": null,
+            "created_at": "2025-07-25T10:28:52.118000"
+        },
+        {
+            "_id": "6888a2c4706fb67b764c8f1e",
+            "Username": "Tamilarasan",
+            "Email": "tamil123@gmail.com",
+            "CreatedAt": "2025-07-29T10:30:28.673000",
+            "PasswordHash": "$2a$11$0gfM3OlSBmXLuVuXcVUi/eGUOSq0IaQQLf9EWTuu6lSSXLpl1nQRm",
+            "RefreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRhbWlsMTIzQGdtYWlsLmNvbSIsIm5iZiI6MTc1Mzc4NTUxMywiZXhwIjoxNzU0MzkwMzEzLCJpYXQiOjE3NTM3ODU1MTMsImlzcyI6IkJsb2dBUEkiLCJhdWQiOiJCbG9nQVBJIn0.9IL4cLaHRVrUwzK1aETnG5R0ntLS-i65F5f6wDg9CK4"
+        }
+    ]
+}
